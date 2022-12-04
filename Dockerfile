@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM nvidia/cudagl:11.3.0-devel-ubuntu20.04
 
 RUN apt update \
     && apt install -y ca-certificates openssh-client \
